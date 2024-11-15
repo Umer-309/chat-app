@@ -1,7 +1,6 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
-import Input from './components/Input.vue'
+import Chat from './components/Chat.vue'
 </script>
 
 <template>
@@ -14,7 +13,7 @@ import Input from './components/Input.vue'
   </header>
 
   <main>
-    <Input/>
+    <Chat/>
   </main>
 </template>
 
